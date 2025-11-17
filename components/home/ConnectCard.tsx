@@ -46,7 +46,7 @@ const ConnectCard = ({ onConnectionError }: { onConnectionError: () => void }) =
                     <span>Connect your Trezor</span>
                 </div>
             </div>
-            <button
+            {/* <button
                 onClick={handleRetry}
                 className={`flex items-center justify-center px-4 py-2 text-white font-semibold rounded transition-colors duration-150 ${status === 'error' ? 'bg-gray-600' : 'bg-green-600'}`}
             >
@@ -55,7 +55,7 @@ const ConnectCard = ({ onConnectionError }: { onConnectionError: () => void }) =
                     {status === 'error' && <ErrorIcon />}
                 </div>
                 <span>{buttonText}</span>
-            </button>
+            </button> */}
         </div>
     );
 };
